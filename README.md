@@ -116,4 +116,4 @@ For a prompt such as `What is the sum of 40 and 2?`, the output has this shape:
 
 ### AI usage disclosure
 
-AI assistance was used to organize the implementation into stages, draft and refine parts of the Python implementation. The generated code and explanations were reviewed against the assignment and supplied SDK. The project author is responsible for understanding and validating the submitted work.
+AI assistance was used to organize the implementation into stages, draft and refine parts of the Python implementation. Understanding the constrained decoding and some concepts.

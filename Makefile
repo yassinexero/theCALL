@@ -1,7 +1,11 @@
 .PHONY: install run debug clean lint
 
+
+UV_CACHE="$(HOME)/goinfre/.uv_cache"
+export HF_HOME=$(HOME)/goinfre/.hf_cache
+
 install:
-	uv sync
+	uv sync --cache-dir=$(UV_CACHE)
 
 run:
 	uv run python -m src
